@@ -1,0 +1,13 @@
+#! /bin/sh
+
+POCO_BASE=/usr/local/devel/poco
+export POCO_BASE
+
+POCO_BUILD=/usr/local/devel/zer0ctrl
+export POCO_BUILD
+
+PROJECT_BASE=/usr/local/devel/zer0ctrl
+export PROJECT_BASE
+
+gmake -s clean
+gmake -s
